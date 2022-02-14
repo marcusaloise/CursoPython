@@ -1,11 +1,12 @@
-# Criar uma função que soma 
+# Inicio do projetinho do carro | lanchonete 
 
-def soma(*numeros):
-    resultado = 0 
-    for num in numeros:
-        resultado += num
-    return resultado
+def agencia(**carro):
+    return carro
+#padronizar os parametros com modelo, cor e após o tipo de motor
+print(agencia(modelo ='Toyota cross', cor = 'Branco',motor = 1.6, placa = '1234'))
+print(agencia(modelo ='Honda civic', cor = 'Preto',motor = 1.0))
+print(agencia(modelo ='Jaguar f-type', cor = 'verde escuro',motor = 1.6, placa = '1234'))
 
 
-x = soma(2,3,4,10)
-print(x)
+
+
