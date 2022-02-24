@@ -1,13 +1,10 @@
-from array import array
 
-#Array
-    # Similar a listas
-    # Melhor perfomance
+#Listas
 
-letras = ['a','b','c','d']
-numerps_i = [10, 20, 30, 40]
-numeros_f = [1.2, 2.2, 3.2]
+frutasUsuario = input('Digite o nome das frutas separados por virgula: ')
 
-letras = array('u', ['a','b','c','d'])
+frutasListas = frutasUsuario.split(', ')
 
-print(letras)
+
+print(frutasListas)
+

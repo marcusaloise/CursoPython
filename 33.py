@@ -1,7 +1,11 @@
-# Tuples
-    # Armazena mais de uma informação em váriaveis
-    # manter a sequencia dps dados em uma variável
-    # não podem ser alteradas (Immutable)
+#Listas
 
-cores_list = ['Amarelo','verde','azul','vermelho']
-cores_tuple = ('Amarelo','verde','azul','vermelho')
+cores = ['Amarelo', 'Verde', 'Azul', 'Vermelho']
+
+valores = [10, 20, 30, 40]
+
+duasListas = zip(cores, valores)
+
+x = list('Marcus')
+
+print(list(duasListas))
