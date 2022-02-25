@@ -1,13 +1,7 @@
-from array import array
+# Tuples
+    # Armazena mais de uma informação em váriaveis
+    # manter a sequencia dps dados em uma variável
+    # não podem ser alteradas (Immutable)
 
-#Array
-    # Similar a listas
-    # Melhor perfomance
-
-letras = ['a','b','c','d']
-numerps_i = [10, 20, 30, 40]
-numeros_f = [1.2, 2.2, 3.2]
-
-letras = array('u', ['a','b','c','d'])
-
-print(letras)
+cores_list = ['Amarelo','verde','azul','vermelho']
+cores_tuple = ('Amarelo','verde','azul','vermelho')
