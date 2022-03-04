@@ -4,11 +4,9 @@
     # Muito utilizado dentro de outras funções
     # código mais limpo
 
-#def somar(x):
-#    return x + 10
+def somar(x):
+    result = lambda x: x + 10
+    return result(2) * 4
         
-#print(somar(2))
+print(somar(2))
 
-somar10 = lambda x: x + 10
-
-print(somar10(2))
